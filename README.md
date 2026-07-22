@@ -1,6 +1,8 @@
 # Chromic Haptic Player
 
-Flutter app that renders synced lyrics with per-character GPU fill + beat-synced haptic vibration. Connects to Modal backend for Whisper alignment and haptic beat detection.
+> Flutter app that renders synced lyrics with per-character GPU fill + beat-synced haptic vibration. Connects to Modal backend for Whisper alignment and haptic beat detection.
+
+https://github.com/user-attachments/assets/a0427ab0-477a-4e54-bd7d-9fcb96cb85cc
 
 ## Requirements
 
