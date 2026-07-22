@@ -1,0 +1,29 @@
+name: chromic_haptic
+description: "Chromic Haptic Player — music for deaf people. Free forever."
+publish_to: "none"
+version: 1.0.0
+
+environment:
+  sdk: ^3.2.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  shared_preferences: ^2.3.0
+  path_provider: ^2.1.0
+  path_provider_platform_interface: any
+  just_audio: ^0.9.39
+  just_audio_platform_interface: any
+  url_launcher: ^6.3.2
+  crypto: ^3.0.3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  shaders:
+    - shaders/bloom.frag
+    - shaders/green_test.frag
+    - shaders/char_glow.frag
